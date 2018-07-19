@@ -1,0 +1,71 @@
+{
+	"rooms": [{
+		"id": "aWg2m5Q3",
+		"spotify_user": {
+			"username": "ook42",
+			"credentials": {
+				"token": "BQAg6E0IEPsCQp7zksegE6US6tbglwzJmVwlBNYAWwDv7eZ8XI0rj8QftR2jEq248ehgXz1Fzx7yOVVVOCf6d4TpVYZLz3UmIx7l0Yc1eokIwNNLgISpsK5yEM_Ka2nJcpjHTEFEjDHzgBdTgzyIovWaZo9dPyyUlfi9PZb5xCDg1hzYD5qn8tjkfcWPo19aO5X8_PyvERHprrUQIep9i_"
+			}
+		},
+		"users": [{
+			"id": "f43nbg3e2",
+			"username": "jdoe"
+		}],
+		"queue": [
+			{
+				"id": "11dFghVXANMlKmJXsNCbNl",
+				"album_uri": "spotify:album:0tGPJ0bkWOUmH7MEOR77qc",
+				"artists": [{
+					"id": "6sFIWsNpZYqfjUpaCgueju",
+					"name": "Carly Rae Jepsen"
+				}],
+				"images": [{
+						"height": 640,
+						"url": "https://i.scdn.co/image/966ade7a8c43b72faa53822b74a899c675aaafee",
+						"width": 640
+					},
+					{
+						"height": 300,
+						"url": "https://i.scdn.co/image/107819f5dc557d5d0a4b216781c6ec1b2f3c5ab2",
+						"width": 300
+					},
+					{
+						"height": 64,
+						"url": "https://i.scdn.co/image/5a73a056d0af707b4119a883d87285feda543fbb",
+						"width": 64
+					}
+				],
+				"name": "Cut To The Feeling",
+				"preview_url": "https://p.scdn.co/mp3-preview/229bb6a4c7011158cc7e1aff11957e274dc05e84?cid=774b29d4f13844c495f206cafdad9c86",
+				"track_number": 1
+			},
+			{
+				"id": "11dFghVXANMlKmJXsNCbNl",
+				"album_uri": "spotify:album:0tGPJ0bkWOUmH7MEOR77qc",
+				"artists": [{
+					"id": "6sFIWsNpZYqfjUpaCgueju",
+					"name": "Carly Rae Jepsen"
+				}],
+				"images": [{
+						"height": 640,
+						"url": "https://i.scdn.co/image/966ade7a8c43b72faa53822b74a899c675aaafee",
+						"width": 640
+					},
+					{
+						"height": 300,
+						"url": "https://i.scdn.co/image/107819f5dc557d5d0a4b216781c6ec1b2f3c5ab2",
+						"width": 300
+					},
+					{
+						"height": 64,
+						"url": "https://i.scdn.co/image/5a73a056d0af707b4119a883d87285feda543fbb",
+						"width": 64
+					}
+				],
+				"name": "Cut To The Feeling",
+				"preview_url": "https://p.scdn.co/mp3-preview/229bb6a4c7011158cc7e1aff11957e274dc05e84?cid=774b29d4f13844c495f206cafdad9c86",
+				"track_number": 1
+			}			
+		]
+	}]
+}
