@@ -1,6 +1,7 @@
-const admin = require('../node_modules/firebase-admin');
+const admin = require('./node_modules/firebase-admin');
 const serviceAccount = require("./service_key.json");
 const settings = {timestampsInSnapshots: true};
+var FieldValue = require('firebase-admin').firestore.FieldValue;
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
@@ -10,15 +11,14 @@ admin.initializeApp({
 const firestore = admin.firestore();
 firestore.settings(settings);
 
+const data = require("./song.json");
 
+//resolve(data);
 
-const data = require("./data.json");
+admin.firestore()
+.doc('/rooms/0/queue/' + 9)
+.set(data)
 
-/**
- * Data is a collection if
- *  - it has a odd depth
- *  - contains only objects or contains no objects.
- */
 function isCollection(data, path, depth) {
   if (
     typeof data != 'object' ||
@@ -50,9 +50,9 @@ function isEmpty(obj) {
 }
 
 async function upload(data, path) {
-  return await firestore
-    .doc(path.join('/'))
-    .set(data)
+  return await admin.firestore()
+    .collection(path.join('/'))
+    .add(data)
     .then(() => console.log(`Document ${path.join('/')} uploaded.`))
     .catch(() => console.error(`Could not write document ${path.join('/')}.`));
 }
@@ -90,5 +90,3 @@ async function resolve(data, path = []) {
     }
   }
 }
-
-resolve(data);

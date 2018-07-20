@@ -1,0 +1,35 @@
+{
+  "votes": 1,
+  "voted": false,
+  "track": {
+    "album":{
+      "images": [{
+        "height": 640,
+        "url": "https://i.scdn.co/image/3ecb55e1d28f4763a38d63cf1a9d4ca43ad070ba",
+        "width": 640
+      }, {
+        "height": 300,
+        "url": "https://i.scdn.co/image/6e61aeecb572f4ae775bd806b87d46225f28c83f",
+        "width": 300
+      }, {
+        "height": 64,
+        "url": "https://i.scdn.co/image/522b085244a1ef91e6afb449d2167c2c935ed9bb",
+        "width": 64
+      }],
+      "uri": "spotify:album:1ay9Z4R5ZYI2TY7WiDhNYQ"
+    },
+    "artists": [{
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0oSGxfWSnnOXhD2fKuz2Gy"
+      },
+      "href": "https://api.spotify.com/v1/artists/0oSGxfWSnnOXhD2fKuz2Gy",
+      "id": "0oSGxfWSnnOXhD2fKuz2Gy",
+      "name": "David Bowie",
+      "type": "artist",
+      "uri": "spotify:artist:0oSGxfWSnnOXhD2fKuz2Gy"
+    }],
+    "duration_ms": 318813,
+    "name": "Space Oddity - 2015 Remastered Version",
+    "track_number": 1
+  }
+}
